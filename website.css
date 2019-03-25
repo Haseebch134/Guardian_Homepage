@@ -1,0 +1,294 @@
+.card1 {
+  
+  padding: 16px;
+  text-align: left;
+  background-color: white;
+  margin-top: 20px;
+  width: 40%;
+  height: 10%;
+}
+
+/*<!--**********************HEADER***************************-->*/
+
+.header {
+
+  background-color: #052962;
+  color: white;
+}
+
+/*<!--**********************NAVBAR***************************-->*/
+
+/* Style the navigation menu */
+.navbar {
+  width: 100%;
+  background-color: #052962;
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  padding: 50px;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+}
+
+/* Add a background color on mouse-over */
+/*.navbar a:hover {
+  background-color: #000;
+}*/
+
+/* Style the current/active link */
+/*.navbar a.active {
+  background-color: #4CAF50;
+}*/
+
+/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left; /* If you want the text to be left-aligned on small screens */
+  }
+}
+
+/*<!--**********************SPOTLIGHT ROW CARDS***************************-->*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Guardian Egyptian Web ;
+}
+
+
+.column1 {
+  float: left;
+  width: 45%;
+  padding: 0 10px;
+
+  
+}
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 27%;
+  padding: 0 10px;
+  text-align: left;
+  
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;
+
+  margin-top: 15px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+ 
+  padding: 16px;
+  text-align: center;
+  background-color: white;
+  
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+/*<!--*************************************************-->*/
+
+.column2 {
+
+  margin: 0 -2px;
+}
+
+
+/*<!--************************RED PORTION*************************-->*/
+
+.row3 {
+
+    content: "";
+  display: table;
+  clear: both;
+  margin-top: 15px;
+width: 100%;
+
+}
+
+.column3 {
+  width: 100%;
+    display: block;
+      float: left;
+  width: 27%;
+
+  text-align: left;
+  width: 38%; 
+
+}
+
+.column4 {
+  width: 100%;
+    display: block;
+      float: left;
+  width: 22%;
+  background-color: #d01317;
+  text-align: left;
+  width: 24%; 
+
+}
+
+.card3 {
+  
+  padding: 5px;
+  text-align: center;
+  background-color: #eaeaea;
+   
+}
+
+.card4 {
+  
+  padding: 5px;
+  text-align: left;
+  background-color: #d01317;
+  color: white;
+  margin-top: -1px;
+}
+
+
+/******************************************************************/
+
+
+/*.card5{
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect /
+  padding: 16px;
+  text-align: left;
+  background-color: #f1f1f1;
+  margin-top: 20px;
+  width: 20%;
+  height: 10%;
+} */
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column5 {
+  float: left;
+  width: 25%;
+  padding: 0 5px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row5 {margin: 0 -5px;
+
+margin-top: 15px;
+}
+
+/* Clear floats after the columns */
+.row5:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card5 {
+
+  padding: 16px;
+  text-align: center;
+  background-color: white;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column5 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+
+/********************************************************************/
+
+.Tip {
+
+  background: yellow;
+}
+
+
+
+/********************************************************************/
+
+
+
+/* Float four columns side by side */
+.column6 {
+  float: left;
+  width: 25%;
+  padding: 0 5px;
+
+  text-align: center;
+  background-color: #052962;
+  color: white;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row6 {margin: 0 -5px;
+
+margin-top: 15px;
+
+}
+
+/* Clear floats after the columns */
+.row6:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column6 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
