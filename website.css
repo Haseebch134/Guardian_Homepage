@@ -14,6 +14,7 @@
 
   background-color: #052962;
   color: white;
+  margin-top: -20px;
 }
 
 /*<!--**********************NAVBAR***************************-->*/
@@ -23,19 +24,24 @@
   width: 100%;
   background-color: #052962;
   overflow: auto;
-  box-sizing: border-box;
+  margin-bottom: 50px;
+  /*box-sizing: border-box;*/
 }
 
 /* Navigation links */
 .navbar a {
   float: left;
-  padding: 50px;
-  color: white;
-  text-decoration: none;
-  font-size: 30px;
-  width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  padding: 10px;
+  color: white ;
+
+
+  font-size: 25px;
+  width: 100%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
   text-align: center; /* If you want the text to be centered */
 }
+
+
+
 
 /* Add a background color on mouse-over */
 /*.navbar a:hover {
@@ -135,10 +141,10 @@ width: 100%;
 }
 
 .column3 {
-  width: 100%;
+ 
     display: block;
       float: left;
-  width: 27%;
+  
 
   text-align: left;
   width: 38%; 
@@ -146,10 +152,10 @@ width: 100%;
 }
 
 .column4 {
-  width: 100%;
+  
     display: block;
       float: left;
-  width: 22%;
+  
   background-color: #d01317;
   text-align: left;
   width: 24%; 
@@ -192,9 +198,9 @@ width: 100%;
   box-sizing: border-box;
 }
 
-body {
+/*body {
   font-family: Arial, Helvetica, sans-serif;
-}
+}*/
 
 /* Float four columns side by side */
 .column5 {
@@ -285,10 +291,111 @@ margin-top: 15px;
 
 
 
+/**************************************************************************/
+
+.column7 {
+  float: left;
+  width: 10%;
+ /* padding:  10px;*/
+  margin-top: 20px;
+  text-align: left;
+  background-color: #052962;
+  margin-left: -30px;
+  
+  /*margin-top: 20px;*/  
+}
+
+.column8 {
+  float: left;
+  width: 45%;
+ /* padding:  10px;*/
+  margin-left: 20px;
+  text-align: left;
+  
+  /*margin-top: 20px;*/
+}
+
+.column9 {
+  float: left;
+  width: 10%;
+ /* padding:  10px;*/
+  margin-top: 30px;
+  text-align: left;
+  background-color: #052962;
+  
+  
+  /*margin-top: 20px;*/
+  
+ 
+
+  
+}
+
+
+/********************************************************************/
+
+.btn{
+  color: white; background-color: #052962; border-color: transparent;"
+}
+
+.btn1{
+   background: #ffe500; color: #052962; border-radius: 30px; margin-left: 20px;
+}
 
 
 
+#b1{
+
+   background: #ffe500; color: #052962; border-radius: 30px; margin-left: 20px;
+}
+
+#i1{
+   "background-color: white; width: 206px; margin-left: 30px;"
+}
+
+#i2{
+   margin-top: 138px; margin-left: 60px; border-radius: 30px; ">
+}
+
+
+#f1{
+  background: #ffe500; color: #052962; border-radius: 30px; margin-left: 20px; margin-top: -6px;
+}
 
 
 
+#f2{color: #ffe500;  }
+
+#f3{
+  margin-top: 141px; margin-left: 20px; 
+}
+
+
+#r3
+{
+   margin-top: 138px; margin-left: 60px; border-radius: 30px; 
+}
+
+#r1
+{
+background-color: white; width: 206px; margin-left: 30px;
+}
+
+#r4
+{
+  margin-top: 6px; border-radius: 30px; color: white; background-color: #d01317;
+}
+
+#r55
+{
+  margin-top: -1px; border-radius: 30px; color:white; background-color: #d01317;
+}
+
+#heaad 
+{
+	color: #ffe500;
+}
+
+
+/**************************************************************/
 
