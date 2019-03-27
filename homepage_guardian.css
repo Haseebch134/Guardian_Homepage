@@ -398,4 +398,142 @@ background-color: white; width: 206px; margin-left: 30px;
 
 
 /**************************************************************/
+/**************************************************************/
 
+/**************************************************************/
+
+/**************************************************************/
+
+/**************************************************************/
+
+/**************************************************************/
+
+/**************************************************************/
+
+/**************************************************************/
+
+/**************************************************************/
+
+/**************************************************************/
+
+
+/**************************************************************/
+
+
+#header1 :hover{
+  color: yellow;
+}
+
+#header1{  float: left;
+  width: 18%;
+ /* padding:  10px;*/
+  /*margin-top: 20px;*/
+  /*text-align: left;*/
+  background-color: #052962;
+  padding-top: 10px;
+
+ /* margin-left: -30px;*/
+  
+  /*margin-top: 20px;*/   }
+
+#header1-1 :hover{
+  color: yellow;
+}
+
+#header1-1{  float: left;
+  width: 17%;
+ /* padding:  10px;*/
+  /*margin-top: 20px;*/
+  /*text-align: left;*/
+  background-color: #052962;
+  padding-top: 10px;
+  margin-left: -60px;
+ /* margin-left: -30px;*/
+  
+  /*margin-top: 20px;*/   }
+
+#header_logo{
+   float: left;
+  width: 28%;
+ /* padding:  10px;*/
+  /*margin-top: 30px;*/
+  padding-top: 20px;
+  text-align: left;
+  background-color: #052962;
+  
+  
+  /*margin-top: 20px;*/
+  
+ 
+}
+
+#heading{color: #ffe500; line-height: 0.6;
+font-size: 30px;
+font-style: }
+
+
+#b1{background: #ffe500; color: #052962; border-radius: 30px; margin-left: 20px;}
+
+
+.header {background-color: #052962;
+         color: white;
+         margin-top: -20px;}
+
+
+#navigation {
+  width: 100%;
+  background-color: #052962;
+  overflow: auto;
+    
+    border: 0px solid;
+   
+  border-bottom: none;
+  /*box-sizing: border-box;*/
+
+
+}
+
+/* Navigation links */
+#navigation_2 {
+
+  background-color : white;
+  margin-top: -50px;
+}
+
+#navigation a:hover{
+  color:yellow;
+} 
+#navigation a {
+  float: left;
+  padding: 5px;
+  
+color: white;
+
+  font-size: 25px;
+   /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+}
+
+
+#navigation_2 a:hover{
+color: red;
+
+} 
+
+#navigation_2 a{
+
+
+margin: -8px;
+  color: black;
+  float: left;
+  font-size: 20px;
+  border-spacing: 0px;
+  text-align: left;
+  font-size: 15px;
+
+}
+
+
+
+
+/******************************************************************/
