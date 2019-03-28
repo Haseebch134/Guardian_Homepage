@@ -73,6 +73,8 @@ body {
 }
 
 
+
+
 .column1 {
   float: left;
   width: 45%;
@@ -286,6 +288,7 @@ margin-top: 15px;
     width: 100%;
     display: block;
     margin-bottom: 20px;
+    max-width: 81.25rem;
   }
 }
 
@@ -431,7 +434,7 @@ background-color: white; width: 206px; margin-left: 30px;
   /*text-align: left;*/
   background-color: #052962;
   padding-top: 10px;
-
+margin-left: 20px;
  /* margin-left: -30px;*/
   
   /*margin-top: 20px;*/   }
@@ -454,14 +457,13 @@ background-color: white; width: 206px; margin-left: 30px;
 
 #header_logo{
    float: left;
-  width: 28%;
+  width: 25%;
  /* padding:  10px;*/
   /*margin-top: 30px;*/
-  padding-top: 20px;
+  padding-top: 5px;
+
   text-align: left;
   background-color: #052962;
-  
-  
   /*margin-top: 20px;*/
   
  
@@ -533,7 +535,16 @@ margin: -8px;
 
 }
 
-
-
+.container-fluid {
+padding: 0px;
+    
+}
 
 /******************************************************************/
+
+
+.size{
+
+  width: 300px;
+  height: 130px;
+}
