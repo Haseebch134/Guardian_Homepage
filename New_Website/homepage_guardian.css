@@ -1,0 +1,879 @@
+.card1 {
+  
+  padding: 16px;
+  text-align: left;
+  background-color: white;
+  margin-top: 20px;
+  width: 40%;
+  height: 10%;
+}
+
+/*<!--**********************HEADER***************************-->*/
+
+.header {
+
+  background-color: #052962;
+  color: white;
+  margin-top: -20px;
+}
+
+/*<!--**********************NAVBAR***************************-->*/
+
+/* Style the navigation menu */
+.navbar {
+  width: 100%;
+  background-color: #052962;
+  overflow: auto;
+  margin-bottom: 50px;
+  /*box-sizing: border-box;*/
+}
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  padding: 10px;
+  color: white ;
+
+
+  font-size: 25px;
+  width: 100%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+}
+
+
+
+
+/* Add a background color on mouse-over */
+/*.navbar a:hover {
+  background-color: #000;
+}*/
+
+/* Style the current/active link */
+/*.navbar a.active {
+  background-color: #4CAF50;
+}*/
+
+/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left; /* If you want the text to be left-aligned on small screens */
+  }
+}
+
+/*<!--**********************SPOTLIGHT ROW CARDS***************************-->*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Guardian Egyptian Web ;
+}
+
+
+
+
+.column1 {
+  float: left;
+  width: 45%;
+  padding: 0 10px;
+
+  
+}
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 27%;
+  padding: 0 10px;
+  text-align: left;
+  
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;
+
+  margin-top: 15px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+ 
+  padding: 16px;
+  text-align: center;
+  background-color: white;
+  
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+/*<!--*************************************************-->*/
+
+.column2 {
+
+  margin: 0 -2px;
+}
+
+
+/*<!--************************RED PORTION*************************-->*/
+
+.row3 {
+
+    content: "";
+  display: table;
+  clear: both;
+  margin-top: 15px;
+width: 100%;
+
+}
+
+.column3 {
+ 
+    display: block;
+      float: left;
+  
+
+  text-align: left;
+  width: 38%; 
+
+}
+
+.column4 {
+  
+    display: block;
+      float: left;
+  
+  background-color: #d01317;
+  text-align: left;
+  width: 24%; 
+
+}
+
+.card3 {
+  
+  padding: 5px;
+  text-align: center;
+  background-color: #eaeaea;
+   
+}
+
+.card4 {
+  
+  padding: 5px;
+  text-align: left;
+  background-color: #d01317;
+  color: white;
+  margin-top: -1px;
+}
+
+
+/******************************************************************/
+
+
+/*.card5{
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect /
+  padding: 16px;
+  text-align: left;
+  background-color: #f1f1f1;
+  margin-top: 20px;
+  width: 20%;
+  height: 10%;
+} */
+
+
+* {
+  box-sizing: border-box;
+}
+
+/*body {
+  font-family: Arial, Helvetica, sans-serif;
+}*/
+
+/* Float four columns side by side */
+.column5 {
+  float: left;
+  width: 25%;
+  padding: 0 5px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row5 {margin: 0 -5px;
+
+margin-top: 15px;
+}
+
+/* Clear floats after the columns */
+.row5:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card5 {
+
+  padding: 16px;
+  text-align: center;
+  background-color: white;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column5 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+
+/********************************************************************/
+
+.Tip {
+
+  background: yellow;
+  color: black;
+  font-family: "serif";
+
+}
+
+
+
+/********************************************************************/
+
+
+
+/* Float four columns side by side */
+.column6 {
+  float: left;
+  width: 25%;
+  padding: 0 5px;
+
+  text-align: center;
+  background-color: #052962;
+  color: white;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row6 {margin: 0 -5px;
+
+margin-top: 15px;
+
+}
+
+/* Clear floats after the columns */
+.row6:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column6 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    max-width: 81.25rem;
+  }
+}
+
+
+
+/**************************************************************************/
+
+.column7 {
+  float: left;
+  width: 10%;
+ /* padding:  10px;*/
+  margin-top: 20px;
+  text-align: left;
+  background-color: #052962;
+  margin-left: -30px;
+  
+  /*margin-top: 20px;*/  
+}
+
+.column8 {
+  float: left;
+  width: 45%;
+ /* padding:  10px;*/
+  margin-left: 20px;
+  text-align: left;
+  
+  /*margin-top: 20px;*/
+}
+
+.column9 {
+  float: left;
+  width: 10%;
+ /* padding:  10px;*/
+  margin-top: 30px;
+  text-align: left;
+  background-color: #052962;
+  
+  
+  /*margin-top: 20px;*/
+  
+ 
+
+  
+}
+
+
+/********************************************************************/
+
+.btn{
+  color: white; background-color: #052962; border-color: transparent;"
+}
+
+.btn1{
+   background: #ffe500; color: #052962; border-radius: 30px; margin-left: 20px;
+}
+
+
+
+#b1{
+
+   background: #ffe500; color: #052962; border-radius: 30px; margin-left: 20px;
+}
+
+#i1{
+   "background-color: white; width: 206px; margin-left: 30px;"
+}
+
+#i2{
+   margin-top: 138px; margin-left: 60px; border-radius: 30px; ">
+}
+
+
+#f1{
+  background: #ffe500; color: #052962; border-radius: 30px; margin-left: 20px; margin-top: -6px;
+}
+
+
+
+#f2{color: #ffe500;  }
+
+#f3{
+  margin-top: 141px; margin-left: 20px; 
+}
+
+
+#r3
+{
+   margin-top: 138px; margin-left: 60px; border-radius: 30px; 
+}
+
+#r1
+{
+background-color: white; width: 206px; margin-left: 30px;
+}
+
+#r4
+{
+  margin-top: 6px; border-radius: 30px; color: white; background-color: #d01317;
+}
+
+#r55
+{
+  margin-top: -1px; border-radius: 30px; color:white; background-color: #d01317;
+}
+
+#heaad 
+{
+	color: #ffe500;
+}
+
+
+/**************************************************************/
+/**************************************************************/
+
+/**************************************************************/
+
+/**************************************************************/
+
+/**************************************************************/
+
+/**************************************************************/
+
+/**************************************************************/
+
+/**************************************************************/
+
+/**************************************************************/
+
+/**************************************************************/
+
+
+/**************************************************************/
+
+
+
+#header2 :hover{
+  color: yellow;
+}
+
+#header2{  float: left;
+  width: 18%;
+ /* padding:  10px;*/
+  /*margin-top: 20px;*/
+  /*text-align: left;*/
+  background-color: #052962;
+  padding-top: 10px;
+margin-left: 0px;
+ /* margin-left: -30px;*/
+  
+  /*margin-top: 20px;*/   }
+
+
+
+
+
+#header3 :hover{
+  color: yellow;
+}
+
+#header3{  float: left;
+  width: 18%;
+ /* padding:  10px;*/
+  /*margin-top: 20px;*/
+  /*text-align: left;*/
+  background-color: #052962;
+  padding-top: 10px;
+margin-left: 0px;
+ /* margin-left: -30px;*/
+  
+  /*margin-top: 20px;*/   }
+
+
+
+#header1 :hover{
+  color: yellow;
+}
+
+#header1{  float: left;
+  width: 18%;
+ /* padding:  10px;*/
+  /*margin-top: 20px;*/
+  /*text-align: left;*/
+  background-color: #052962;
+  padding-top: 10px;
+margin-left: 0px;
+ /* margin-left: -30px;*/
+  
+  /*margin-top: 20px;*/   }
+
+#header1-1 :hover{
+  color: yellow;
+}
+
+#header1-1{  float: left;
+  width: 15%;
+ /* padding:  10px;*/
+  /*margin-top: 20px;*/
+  /*text-align: left;*/
+  background-color: #052962;
+  padding-top: 10px;
+
+  margin-left: -60px;
+ /* margin-left: -30px;*/
+  
+  /*margin-top: 20px;*/   }
+
+#header_logo{
+   float: left;
+  width: 23%;
+ /* padding:  10px;*/
+  /*margin-top: 30px;*/
+
+margin-left: -30px;
+  text-align: left;
+  background-color: #052962;
+  /*margin-top: 20px;*/
+  
+ 
+}
+
+#heading{color: #ffe500; line-height: 0.6;
+
+    font-weight: 900;
+height: 20px;
+
+}
+
+
+#b1{background: #ffe500; color: #052962; border-radius: 30px; margin-left: 20px;}
+
+
+.header {background-color: #052962;
+         color: white;
+         margin-top: -20px;}
+
+
+#navigation {
+  width: 100%;
+  background-color: #052962;
+  overflow: auto;
+    border-radius: 0px;
+    border: 0px solid;
+   
+  border-bottom: none;
+  /*box-sizing: border-box;*/
+
+
+}
+
+/* Navigation links */
+#navigation_2 {
+
+  background-color : white;
+  margin-top: -50px;
+}
+
+#navigation a:hover{
+  
+} 
+#navigation a {
+  float: left;
+  padding: 0px;
+  padding-left: 50px;
+
+  font-size: 25px;
+   /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: left; /* If you want the text to be centered */
+}
+
+
+#navigation_2 a:hover{
+color: red;
+
+} 
+
+#navigation_2 a{
+
+
+margin: -8px;
+  color: black;
+  float: left;
+  font-size: 20px;
+  
+  border-spacing: 0px;
+  text-align: left;
+  font-size: 15px;
+
+}
+
+.container-fluid {
+padding: 0px;
+    
+}
+
+/******************************************************************/
+
+
+.size{
+
+  width: 300px;
+  height: 130px;
+}
+
+#heading2 {
+
+	font-family: Arial ;
+}
+
+
+.brexit{
+
+	color: black;
+	background-color: yellow;
+	border-color: transparent;
+	font-size: 25px;
+	 font-family: "serif";
+
+}
+
+.Friday{
+	line-height: 0.3;
+	
+	  font-family: "serif";
+}
+
+.date{
+	color: red;
+	font-size: 18px;
+	line-height: 0.01;
+	 font-family: 
+}
+
+.cv{
+
+	padding-left: 40px;
+	height: 357px;
+}
+
+.center{
+
+width: 118%;
+margin-left: -55px;
+height: 360px;
+}
+
+.headline{
+	background-color: grey;
+}
+
+.sppotlight{
+	margin-top: -2px;
+	margin-left: -50px;
+	color: black;
+	font-size: 28px;
+
+}
+
+.rowspotlight{
+	margin-top: 25px;
+}
+
+
+.tipusoff {
+
+	font-size: 32px;
+
+}
+/********************************************************************/
+
+
+
+
+
+/*.News{
+
+
+
+}
+.News::after{
+	/*border-color: orange;*
+	width: 35px;
+	    border-top: 0.25rem solid currentColor;
+    left: 0.0625rem;
+    right: 0;
+    top: -0.25rem;
+    transition: -webkit-transform .3s ease-in-out;
+    transition: transform .3s ease-in-out;
+    transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+
+}
+*/
+
+
+
+.todayinfocus{
+	height: 254px;
+}
+
+
+
+
+
+/*
+
+
+.pillars{
+
+padding-left: 1.25rem;
+clear: right;
+margin: 0;
+padding: 0 0 0 0.625rem;
+float: left;
+}
+
+ .pillars  :: after {
+    content: "It is experiment";
+    border: 0.0625rem solid #506991;
+    border-bottom: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2.25rem;
+}
+
+.pillars_item{
+float: left;
+}
+
+.pillars__item li ::before{
+	content: "It is experiment";
+}
+
+ul{
+	display: block;
+}
+
+*/
+
+
+.NAVV{
+	list-style-type: none;
+}
+
+
+.pillars{
+  border-top:1px  solid grey;
+  
+  border-left: 1px solid grey;
+  padding:7px;
+
+
+}
+
+.pillars:hover{
+     /* border-top:2px solid black ;*/
+	    
+}
+
+
+.Opinion{
+  margin-right: 40px;
+}
+.Support{
+  margin-right: 40px;
+}
+
+.Culture{
+  margin-right: 40px;
+}
+
+.Lifestyle{
+  margin-right: 40px;
+}
+
+.News{
+  margin-right: 40px;
+}
+
+
+.News:hover{
+
+	display: block;
+    content: '';
+    /*border-left: 0.0625rem solid #506991;*/
+    top: 0;
+    z-index: 1;
+    bottom: .6em;
+    border-top:3.5px solid red ;
+    margin-top: -5px;
+transition: 0.2s ease;
+text-decoration: none;
+}
+
+
+.Opinion:hover{
+
+	display: block;
+    content: '';
+  /*  border-left: 0.0625rem solid #506991;*/
+    top: 0;
+    z-index: 1;
+    bottom: .6em;
+border-top:3.5px solid orange ;
+margin-top: -5px;
+transition: 0.2s ease;
+text-decoration: none;
+}
+
+.Support:hover{
+
+	display: block;
+    content: '';
+  /*  border-left: 0.0625rem solid #506991;*/
+    top: 0;
+    z-index: 1;
+    bottom: .6em;
+border-top:3.5px solid skyblue ;
+margin-top: -5px;
+transition: 0.2s ease;
+text-decoration: none;
+}
+
+.Culture:hover{
+
+	display: block;
+    content: '';
+    /*border-left: 0.0625rem solid #506991;*/
+    top: 0;
+    z-index: 1;
+    bottom: .6em;
+border-top:3.5px solid white ;
+margin-top: -5px;
+transition: 0.2s ease;
+text-decoration: none;
+}
+
+.Lifestyle:hover{
+
+	display: block;
+    content: '';
+  /*  border-left: 0.0625rem solid #506991;*/
+    top: 0;
+    z-index: 1;
+    bottom: .6em;
+border-top:3.5px solid pink ;
+margin-top: -5px;
+transition: 0.2s ease;
+text-decoration: none;
+}
+
+footer{
+  background-color:#052962;
+}
+
+.btn-sign{
+  background-color: white;
+  color:black;
+}
+
+
+
+#heading20{
+  color: white;
+}
+
+
+
+#heading10{color: #ffe500; line-height: 0.8;
+
+    font-weight: 900;
+height: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
